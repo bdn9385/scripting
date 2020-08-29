@@ -1,5 +1,5 @@
 #!/bin/bash
-HOST="cms.puregold.ph"
+HOST="google.com"
 ping -c 2 $HOST && echo "${HOST} is reachable."
 if [ "$?" -ne "0" ]
 then
